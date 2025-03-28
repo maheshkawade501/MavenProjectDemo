@@ -25,6 +25,8 @@ public class FirstMavenDemo {
 
         FileHandler.copy(file, new File("D:\\TestScrinshot\\abhbusfrommavenproject.png"));
 
+        System.out.println("Checking of Git chnages and adding it repo on git hub");
+
         driver.close();
     }
 }
