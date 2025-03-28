@@ -30,6 +30,8 @@ public class FirstMavenDemo {
 
         System.out.println("Check for branch adding by commit");
 
+        System.out.println("Check for  adding by commit2 after creating branch");
+
         driver.close();
     }
 }
