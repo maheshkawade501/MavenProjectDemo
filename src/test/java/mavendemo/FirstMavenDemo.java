@@ -10,6 +10,7 @@ import org.openqa.selenium.io.FileHandler;
 import java.io.File;
 import java.io.IOException;
 
+
 public class FirstMavenDemo {
     public static void main(String[] args) throws IOException {
         ChromeOptions chromeOptions = new ChromeOptions();
@@ -26,6 +27,8 @@ public class FirstMavenDemo {
         FileHandler.copy(file, new File("D:\\TestScrinshot\\abhbusfrommavenproject.png"));
 
        //removed the comment
+
+        System.out.println("Check for branch adding by commit");
 
         driver.close();
     }
