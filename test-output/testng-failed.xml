@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Zen/IdeaProjects/MavenProjectDemo(failed)">
+    <classes>
+      <class name="testng.parameterizationdemo.DataProviderWithExcel">
+        <methods>
+          <include name="searchOnlineClasses" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- testng.parameterizationdemo.DataProviderWithExcel -->
+    </classes>
+  </test> <!-- C:/Users/Zen/IdeaProjects/MavenProjectDemo(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
